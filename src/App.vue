@@ -1,26 +1,27 @@
 <template>
+
   <div id="app">
+
     <router-view></router-view>
+
     <div>
+
       <router-link to="/home">首页</router-link>
+
       <router-link to="/login">登录</router-link>
+
     </div>
-    <img alt="Vue logo" src="./assets/img/logo.png">
-    <HelloWorld msg="a coderwhy vue template"/>
+
+    <img alt="Vue logo" src="./assets/img/logo.png" />
+
+    <HelloWorld msg="a coderwhy vue template" />
+
   </div>
+
 </template>
 
-<script>
-import HelloWorld from 'components/HelloWorld.vue';
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  },
-  created: function() {
-  }
-}
+<script setup>
+ import HelloWorld from 'components/HelloWorld.vue';
 </script>
 
 <style>
@@ -33,3 +34,4 @@ export default {
   margin-top: 60px;
 }
 </style>
+
